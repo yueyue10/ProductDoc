@@ -197,32 +197,32 @@ http://www.wanandroid.com/tools/mockapi/5708/getRoute1_TigerJsonStr
 >| jump | int | 跳转标识：0：跳转交通页面 1：跳转我的游记列表 |
 
 >>| __traffic__ | JsonObject | 交通信息 |
-| --- | --- | --- |
-| stroke | String | -- |
-| roadId | String | -- |
-| traffic | String | -- |
-| canmodify | boolean | -- |
+>>| --- | --- | --- |
+>>| stroke | String | -- |
+>>| roadId | String | -- |
+>>| traffic | String | -- |
+>>| canmodify | boolean | -- |
 
 >| __spot_recomd__ | JsonObject | 景点推荐 |
-| --- | --- | --- |
-| lat | double | -- |
-| lon | double | -- |
-| codeType | int | -- |
-| type | int | -- |
-| id | int | -- |
-| name | String | 广缘斋 |
-| comment | String | 简介 |
-| scode | int | 5 |
-| picUrl | String | http://travel.enn.cn/group1/M00/00/19/CiaAUlqhCMmACi8kAAGBR8_Gq30604.jpg |
-| id | int | 61 |
-| codeType | int | 3 |
+>| --- | --- | --- |
+>| lat | double | -- |
+>| lon | double | -- |
+>| codeType | int | -- |
+>| type | int | -- |
+>| id | int | -- |
+>| name | String | 广缘斋 |
+>| comment | String | 简介 |
+>| scode | int | 5 |
+>| picUrl | String | http://travel.enn.cn/group1/M00/00/19/CiaAUlqhCMmACi8kAAGBR8_Gq30604.jpg |
+>| id | int | 61 |
+>| codeType | int | 3 |
 
 >| __specialty_recomd__ | JsonObject | 特产推荐 |
-| --- | --- | --- |
-| lat | double | 28.104824 |
-| lon | double | 116.983548 |
-| name | String | 铁皮石斛 |
-| content | String | 药中黄金 |
-| picUrl | String | http://travel.enn.cn/group1/M00/00/19/CiaAUlqhCMmACi8kAAGBR8_Gq30604.jpg |
+>| --- | --- | --- |
+>| lat | double | 28.104824 |
+>| lon | double | 116.983548 |
+>| name | String | 铁皮石斛 |
+>| content | String | 药中黄金 |
+>| picUrl | String | http://travel.enn.cn/group1/M00/00/19/CiaAUlqhCMmACi8kAAGBR8_Gq30604.jpg |
 
 
