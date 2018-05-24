@@ -190,7 +190,7 @@ http://www.wanandroid.com/tools/mockapi/5708/getRoute1_TigerJsonStr
 | end_delay_time | int | 等待结束命令的延迟时间 |
 | result | int | 功能类型：1.消息提示 2：特产推荐  3.景点推荐 4.小老虎停止移动 5.餐馆推荐 |
 | value | JsonObject | 功能内容 |
-
+>
 | __msg_remind__ | JsonObject | 消息提示 |
 | --- | --- | --- |
 | text | String | 提示内容 |
@@ -201,7 +201,7 @@ http://www.wanandroid.com/tools/mockapi/5708/getRoute1_TigerJsonStr
 | roadId | String | -- |
 | traffic | String | -- |
 | canmodify | boolean | -- |
-
+>>
 | __spot_recomd__ | JsonObject | 景点推荐 |
 | --- | --- | --- |
 | lat | double | -- |
