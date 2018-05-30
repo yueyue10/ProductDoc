@@ -154,6 +154,55 @@ http://www.wanandroid.com/tools/mockapi/5708/getRoute1_TigerJsonStr
       }
     },
     {
+      "id": "75_106",
+      "name": null,
+      "lat": 28.093472,
+      "lon": 116.975939,
+      "aid": 825,
+      "rid": 0,
+      "isChoosed": 0,
+      "tiger_data": {
+        "message": "升棺表演两小时候就要开始了",
+        "result": 6,
+        "value": {
+          "delay_time": 500,
+          "msgOrder": {
+            "title": "表演提醒",
+            "content": "升棺表演距离你500m，时间不够了。升棺表演距离你500m，时间不够了。",
+            "left": "调整行程",
+            "right": "继续往前走",
+            "left_jump": 0,
+            "right_jump": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "180_181",
+      "name": null,
+      "lat": 28.047494,
+      "lon": 117.052318,
+      "aid": 975,
+      "rid": 0,
+      "isChoosed": 0,
+      "tiger_data": {
+        "result": 7,
+        "delay_time": 1,
+        "message": "到达天师府。升棺表演两小时候就要开始了，您还可以在天师府游玩半小时，之后可乘坐观光车前往竹筏码头。",
+        "value": {
+          "move_distance": 0.1,
+          "showRemind": {
+            "picUrl": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1527555734&di=839b02171156a8d2ff2f349399a218ee&src=http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1204/01/c8/11116767_11116767_1333276943265_mthumb.jpg",
+            "show_title": "升棺表演",
+            "distance": "距您500m",
+            "show_time": "开演时间：14:00",
+            "show_content1": "在桃花洲观看，一天四场表演，仙岩悬棺有200多县棺木，属国家重点保护文物。",
+            "show_content2": "详情》"
+          }
+        }
+      }
+    },
+    {
       "id": "155_156",
       "name": null,
       "lat": 28.055516,
@@ -188,7 +237,7 @@ http://www.wanandroid.com/tools/mockapi/5708/getRoute1_TigerJsonStr
 | message        | String      | 语音播放内容                                                             |
 | delay_time     | int         | 移动过程中的延迟时间                                                     |
 | end_delay_time | int         | 等待结束命令的延迟时间                                                   |
-| result         | int         | 功能类型：1.消息提示 2：特产推荐  3.景点推荐 4.小老虎停止移动 5.餐馆推荐 |
+| result         | int         | 功能类型：1.消息提示 2：特产推荐  3.景点推荐 4.小老虎停止移动 5.餐馆推荐 6.消息带命令类的提示 7.表演带命令类的提示|
 | value          | JsonObject  | 功能内容                                                                 |
 |                |             |                                                                          |
 >|__msg_remind__ | JsonObject | 消息提示 |
@@ -225,4 +274,20 @@ http://www.wanandroid.com/tools/mockapi/5708/getRoute1_TigerJsonStr
 >| content | String | 药中黄金 |
 >| picUrl | String | http://travel.enn.cn/group1/M00/00/19/CiaAUlqhCMmACi8kAAGBR8_Gq30604.jpg |
 
+>| __msgOrder__ | JsonObject | 命令类消息提示 |
+>| --- | --- | --- |
+>| title | String | 表演提醒 |
+>| content | String | 升棺表演距离你500m，时间不够了。升棺表演距离你500m，时间不够了 |
+>| left | String | 调整行程 |
+>| right | String | 继续往前走 |
+>| left_jump | int | 0 |
+>| right_jump | int | 0 |
 
+>| __showRemind__ | JsonObject | 表演类消息提示 |
+>| --- | --- | --- |
+>| picUrl | String | https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1527555734&di=839b02171156a8d2ff2f349399a218ee&src=http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1204/01/c8/11116767_11116767_1333276943265_mthumb.jpg |
+>| show_title | String | 升棺表演 |
+>| distance | String | 距您500m |
+>| show_time | String | 开演时间：14:00 |
+>| show_content1 | String | 在桃花洲观看，一天四场表演，仙岩悬棺有200多县棺木，属国家重点保护文物。 |
+>| show_content2 | String | 详情》 |
